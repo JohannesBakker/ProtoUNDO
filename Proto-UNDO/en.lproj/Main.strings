@@ -1,0 +1,186 @@
+
+/* Class = "UIButton"; normalTitle = "Fell Asleep"; ObjectID = "0JE-FF-tjx"; */
+"0JE-FF-tjx.normalTitle" = "Fell Asleep";
+
+/* Class = "UIButton"; normalTitle = "!"; ObjectID = "0wr-Vy-Lvz"; */
+"0wr-Vy-Lvz.normalTitle" = "!";
+
+/* Class = "UINavigationItem"; title = "Medicine"; ObjectID = "10T-Tc-FJR"; */
+"10T-Tc-FJR.title" = "Medicine";
+
+/* Class = "UIButton"; normalTitle = "★"; ObjectID = "1Ud-0y-bmh"; */
+"1Ud-0y-bmh.normalTitle" = "★";
+
+/* Class = "UILabel"; text = "3:03 am"; ObjectID = "1te-FC-cf8"; */
+"1te-FC-cf8.text" = "3:03 am";
+
+/* Class = "UILabel"; text = "You're loogged events will appear here"; ObjectID = "2gR-6f-WWP"; */
+"2gR-6f-WWP.text" = "You're loogged events will appear here";
+
+/* Class = "UIButton"; normalTitle = "Undo"; ObjectID = "3Ol-1y-qJk"; */
+"3Ol-1y-qJk.normalTitle" = "Undo";
+
+/* Class = "UILabel"; text = "9:09 pm"; ObjectID = "5jg-Hl-n6s"; */
+"5jg-Hl-n6s.text" = "9:09 pm";
+
+/* Class = "UILabel"; text = "Loaded by InviteViewController"; ObjectID = "6DL-be-9Pi"; */
+"6DL-be-9Pi.text" = "Loaded by InviteViewController";
+
+/* Class = "UITextField"; placeholder = "Medicine"; ObjectID = "6Fr-id-Rqg"; */
+"6Fr-id-Rqg.placeholder" = "Medicine";
+
+/* Class = "UITextField"; text = "Medicine"; ObjectID = "6Fr-id-Rqg"; */
+"6Fr-id-Rqg.text" = "Medicine";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "6nf-14-ZN5"; */
+"6nf-14-ZN5.title" = "Save";
+
+/* Class = "UIViewController"; title = "Customize Events"; ObjectID = "8rH-3z-dGe"; */
+"8rH-3z-dGe.title" = "Customize Events";
+
+/* Class = "UIViewController"; title = "Logs"; ObjectID = "8rJ-Kc-sve"; */
+"8rJ-Kc-sve.title" = "Logs";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "9pv-A4-QxB"; */
+"9pv-A4-QxB.title" = "Home";
+
+/* Class = "UILabel"; text = "Customize       Menu"; ObjectID = "ARn-DP-epf"; */
+"ARn-DP-epf.text" = "Customize       Menu";
+
+/* Class = "UIButton"; normalTitle = "!"; ObjectID = "AVT-T2-icR"; */
+"AVT-T2-icR.normalTitle" = "!";
+
+/* Class = "UIViewController"; title = "More Eat"; ObjectID = "C0U-OB-oeK"; */
+"C0U-OB-oeK.title" = "More Eat";
+
+/* Class = "UIButton"; normalTitle = "★"; ObjectID = "CJn-GS-yKr"; */
+"CJn-GS-yKr.normalTitle" = "★";
+
+/* Class = "UIButton"; normalTitle = "Fell Asleep"; ObjectID = "Ccd-Lf-T3N"; */
+"Ccd-Lf-T3N.normalTitle" = "Fell Asleep";
+
+/* Class = "UIButton"; normalTitle = "★"; ObjectID = "GLt-Ef-R3d"; */
+"GLt-Ef-R3d.normalTitle" = "★";
+
+/* Class = "UIButton"; normalTitle = "!"; ObjectID = "GOw-vX-LK4"; */
+"GOw-vX-LK4.normalTitle" = "!";
+
+/* Class = "UIButton"; normalTitle = "Breast"; ObjectID = "Ixk-02-AAs"; */
+"Ixk-02-AAs.normalTitle" = "Breast";
+
+/* Class = "UILabel"; text = "😃"; ObjectID = "JVn-ym-T1M"; */
+"JVn-ym-T1M.text" = "😃";
+
+/* Class = "UIViewController"; title = "Invite"; ObjectID = "Kq7-ts-jzL"; */
+"Kq7-ts-jzL.title" = "Invite";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "Lfs-mJ-QsM"; */
+"Lfs-mJ-QsM.title" = "Cancel";
+
+/* Class = "UITextView"; text = "Notes"; ObjectID = "SCe-0j-hfZ"; */
+"SCe-0j-hfZ.text" = "Notes";
+
+/* Class = "UITextField"; placeholder = "Medicine"; ObjectID = "TME-YF-qbb"; */
+"TME-YF-qbb.placeholder" = "Medicine";
+
+/* Class = "UITextField"; text = "Medicine"; ObjectID = "TME-YF-qbb"; */
+"TME-YF-qbb.text" = "Medicine";
+
+/* Class = "UINavigationItem"; title = "Customize Events"; ObjectID = "UHs-Oz-aKn"; */
+"UHs-Oz-aKn.title" = "Customize Events";
+
+/* Class = "UILabel"; text = "0 oz"; ObjectID = "VRv-92-ATf"; */
+"VRv-92-ATf.text" = "0 oz";
+
+/* Class = "UILabel"; text = "9:09 pm"; ObjectID = "WLn-88-vUH"; */
+"WLn-88-vUH.text" = "9:09 pm";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "XGc-9K-Vqc"; */
+"XGc-9K-Vqc.title" = "Home";
+
+/* Class = "UIViewController"; title = "More Sleep"; ObjectID = "YaS-fR-K4b"; */
+"YaS-fR-K4b.title" = "More Sleep";
+
+/* Class = "UITextField"; placeholder = "Medicine"; ObjectID = "ZAg-lC-hU9"; */
+"ZAg-lC-hU9.placeholder" = "Medicine";
+
+/* Class = "UITextField"; text = "Medicine"; ObjectID = "ZAg-lC-hU9"; */
+"ZAg-lC-hU9.text" = "Medicine";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Home";
+
+/* Class = "UILabel"; text = "9:09 pm"; ObjectID = "azT-DZ-3mT"; */
+"azT-DZ-3mT.text" = "9:09 pm";
+
+/* Class = "UITabBarItem"; title = "Logs"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Logs";
+
+/* Class = "UITextView"; text = "Notes"; ObjectID = "cQA-wk-PSg"; */
+"cQA-wk-PSg.text" = "Notes";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "fOV-Af-wpt"; */
+"fOV-Af-wpt.title" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Rename"; ObjectID = "fY5-cG-ax0"; */
+"fY5-cG-ax0.normalTitle" = "Rename";
+
+/* Class = "UITextField"; placeholder = "Medicine"; ObjectID = "h6a-lX-RMf"; */
+"h6a-lX-RMf.placeholder" = "Medicine";
+
+/* Class = "UITextField"; text = "Medicine"; ObjectID = "h6a-lX-RMf"; */
+"h6a-lX-RMf.text" = "Medicine";
+
+/* Class = "UIButton"; normalTitle = "Woke Up"; ObjectID = "hPo-dI-whE"; */
+"hPo-dI-whE.normalTitle" = "Woke Up";
+
+/* Class = "UITextField"; placeholder = "Medicine"; ObjectID = "hXX-2p-Ymk"; */
+"hXX-2p-Ymk.placeholder" = "Medicine";
+
+/* Class = "UITextField"; text = "Medicine"; ObjectID = "hXX-2p-Ymk"; */
+"hXX-2p-Ymk.text" = "Medicine";
+
+/* Class = "UILabel"; text = "Note"; ObjectID = "hhD-ir-Md9"; */
+"hhD-ir-Md9.text" = "Note";
+
+/* Class = "UIViewController"; title = "More Memo"; ObjectID = "hnY-4u-4Wa"; */
+"hnY-4u-4Wa.title" = "More Memo";
+
+/* Class = "UIButton"; normalTitle = "!"; ObjectID = "hvj-RD-e4C"; */
+"hvj-RD-e4C.normalTitle" = "!";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "hzu-lC-Cye"; */
+"hzu-lC-Cye.title" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Medicine"; ObjectID = "i7o-hm-ROY"; */
+"i7o-hm-ROY.placeholder" = "Medicine";
+
+/* Class = "UITextField"; text = "Medicine"; ObjectID = "i7o-hm-ROY"; */
+"i7o-hm-ROY.text" = "Medicine";
+
+/* Class = "UILabel"; text = "Invite"; ObjectID = "kmb-lT-2Vt"; */
+"kmb-lT-2Vt.text" = "Invite";
+
+/* Class = "UITextView"; text = "Notes"; ObjectID = "m00-pu-TEZ"; */
+"m00-pu-TEZ.text" = "Notes";
+
+/* Class = "UITabBarItem"; title = "Invite"; ObjectID = "mVc-gU-KQs"; */
+"mVc-gU-KQs.title" = "Invite";
+
+/* Class = "UILabel"; text = "0 events"; ObjectID = "nZh-qS-OIP"; */
+"nZh-qS-OIP.text" = "0 events";
+
+/* Class = "UILabel"; text = "Event"; ObjectID = "nfd-KF-Mdy"; */
+"nfd-KF-Mdy.text" = "Event";
+
+/* Class = "UIViewController"; title = "More Medicine"; ObjectID = "oVs-bu-xL7"; */
+"oVs-bu-xL7.title" = "More Medicine";
+
+/* Class = "UITextView"; text = "Notes"; ObjectID = "pNL-1X-0x6"; */
+"pNL-1X-0x6.text" = "Notes";
+
+/* Class = "UILabel"; text = "9:09 pm"; ObjectID = "tzc-nV-tOK"; */
+"tzc-nV-tOK.text" = "9:09 pm";
+
+/* Class = "UIButton"; normalTitle = "★"; ObjectID = "zSW-TQ-AoE"; */
+"zSW-TQ-AoE.normalTitle" = "★";

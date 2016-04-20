@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>breast</key>
+	<dict>
+		<key>value_used</key>
+		<false/>
+		<key>order</key>
+		<integer>0</integer>
+		<key>actions</key>
+		<array>
+			<string>left</string>
+			<string>right</string>
+			<string>both</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Left</string>
+			<string>Right</string>
+			<string>Both</string>
+		</array>
+		<key>full_desc</key>
+		<array>
+			<string>Breast Left</string>
+			<string>Breast Right</string>
+			<string>Breast Both</string>
+		</array>
+	</dict>
+	<key>bottle</key>
+	<dict>
+		<key>value_used</key>
+		<true/>
+		<key>value_format</key>
+		<string> %i oz</string>
+		<key>order</key>
+		<integer>1</integer>
+		<key>actions</key>
+		<array>
+			<string>bottle</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Bottle</string>
+		</array>
+	</dict>
+	<key>pump</key>
+	<dict>
+		<key>value_used</key>
+		<true/>
+		<key>value_format</key>
+		<string> %i oz</string>
+		<key>order</key>
+		<integer>2</integer>
+		<key>actions</key>
+		<array>
+			<string>left</string>
+			<string>right</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Pump Left</string>
+			<string>Pump Right</string>
+		</array>
+	</dict>
+	<key>sleep</key>
+	<dict>
+		<key>value_used</key>
+		<false/>
+		<key>order</key>
+		<integer>3</integer>
+		<key>actions</key>
+		<array>
+			<string>asleep</string>
+			<string>wokeup</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Fell Asleep</string>
+			<string>Woke Up</string>
+		</array>
+	</dict>
+	<key>poop</key>
+	<dict>
+		<key>value_used</key>
+		<false/>
+		<key>order</key>
+		<integer>4</integer>
+		<key>actions</key>
+		<array>
+			<string>poop</string>
+			<string>diarrhea</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Poops</string>
+			<string>Diarrhea</string>
+		</array>
+	</dict>
+	<key>pee</key>
+	<dict>
+		<key>value_used</key>
+		<false/>
+		<key>order</key>
+		<integer>5</integer>
+		<key>actions</key>
+		<array>
+			<string>pee</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Pee</string>
+		</array>
+	</dict>
+	<key>medicine</key>
+	<dict>
+		<key>value_used</key>
+		<false/>
+		<key>customizable</key>
+		<true/>
+		<key>order</key>
+		<integer>6</integer>
+		<key>actions</key>
+		<array>
+			<string>Medicine1</string>
+			<string>Medicine2</string>
+			<string>Medicine3</string>
+		</array>
+		<key>act_desc</key>
+		<array>
+			<string>Medicine_1</string>
+			<string>Medicine_2</string>
+			<string>Medicine_3</string>
+		</array>
+	</dict>
+	<key>note</key>
+	<dict>
+		<key>value_used</key>
+		<false/>
+		<key>input_event</key>
+		<true/>
+		<key>order</key>
+		<integer>7</integer>
+	</dict>
+</dict>
+</plist>

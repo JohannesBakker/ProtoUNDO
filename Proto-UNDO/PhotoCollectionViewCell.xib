@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PhotoCollectionViewCell" customModule="Proto_UNDO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="256" height="256"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="256" height="256"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tb6-sC-Afr">
+                        <rect key="frame" x="0.0" y="0.0" width="256" height="256"/>
+                        <gestureRecognizers/>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlD-Te-JGp">
+                        <rect key="frame" x="155" y="207" width="36" height="36"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="AwA-B0-6lw"/>
+                            <constraint firstAttribute="height" constant="36" id="NG1-KC-BO5"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tb6-sC-Afr" secondAttribute="trailing" id="Y22-wT-Uoq"/>
+                <constraint firstAttribute="bottom" secondItem="tb6-sC-Afr" secondAttribute="bottom" id="b7H-Ca-ubi"/>
+                <constraint firstItem="tb6-sC-Afr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pCQ-EE-jqh"/>
+                <constraint firstAttribute="trailing" secondItem="PlD-Te-JGp" secondAttribute="trailing" constant="65" id="qOL-3s-1Nw"/>
+                <constraint firstItem="tb6-sC-Afr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sAF-Sx-V0Q"/>
+                <constraint firstAttribute="bottom" secondItem="PlD-Te-JGp" secondAttribute="bottom" constant="13" id="xEr-in-YyF"/>
+            </constraints>
+            <size key="customSize" width="234" height="224"/>
+            <connections>
+                <outlet property="checkMark" destination="PlD-Te-JGp" id="URx-5E-e7z"/>
+                <outlet property="imageView" destination="tb6-sC-Afr" id="STc-69-F4W"/>
+            </connections>
+            <point key="canvasLocation" x="573" y="639"/>
+        </collectionViewCell>
+    </objects>
+</document>

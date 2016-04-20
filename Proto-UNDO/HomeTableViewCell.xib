@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="eventCell" rowHeight="108" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="Proto_UNDO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sleep" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puq-3S-L7i">
+                        <rect key="frame" x="12" y="0.0" width="72" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPQ-Eu-c9X" customClass="BButton" customModule="Proto_UNDO" customModuleProvider="target">
+                        <rect key="frame" x="125" y="50" width="114" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="3ns-cz-8r6"/>
+                            <constraint firstAttribute="width" constant="114" id="t7j-GC-RA2"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
+                        <state key="normal" title="Fell Asleep">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnb-BF-8u8" customClass="BButton" customModule="Proto_UNDO" customModuleProvider="target">
+                        <rect key="frame" x="8" y="50" width="102" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="102" id="Dew-Qw-Sp3"/>
+                            <constraint firstAttribute="height" constant="41" id="bEe-bb-o22"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="8"/>
+                        <state key="normal" title="Woke Up">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KT-1Q-KaQ" customClass="BButton" customModule="Proto_UNDO" customModuleProvider="target">
+                        <rect key="frame" x="260" y="41" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="2Yd-vM-bfK"/>
+                            <constraint firstAttribute="width" constant="60" id="sY9-Lq-rNK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="●●●">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="qPQ-Eu-c9X" secondAttribute="centerY" constant="-17" id="Azx-su-hb6"/>
+                    <constraint firstItem="Puq-3S-L7i" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PZt-m3-ph7"/>
+                    <constraint firstItem="Puq-3S-L7i" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="VR4-zw-8cD"/>
+                    <constraint firstAttribute="centerY" secondItem="6KT-1Q-KaQ" secondAttribute="centerY" constant="-17.5" id="Xce-PI-PC2"/>
+                    <constraint firstItem="Nnb-BF-8u8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="XeQ-0Z-w1l"/>
+                    <constraint firstItem="qPQ-Eu-c9X" firstAttribute="leading" secondItem="Nnb-BF-8u8" secondAttribute="trailing" constant="15" id="ZEF-JD-vRc"/>
+                    <constraint firstAttribute="centerY" secondItem="Nnb-BF-8u8" secondAttribute="centerY" constant="-17" id="aPu-uh-iKd"/>
+                    <constraint firstAttribute="trailing" secondItem="6KT-1Q-KaQ" secondAttribute="trailing" id="nrH-yI-Skt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailButton" destination="6KT-1Q-KaQ" id="f9g-BL-W0y"/>
+                <outlet property="titleLabel" destination="Puq-3S-L7i" id="Hi2-Y8-SBN"/>
+                <outletCollection property="actionLabels" destination="Nnb-BF-8u8" collectionClass="NSMutableArray" id="wRl-Do-bXV"/>
+                <outletCollection property="actionLabels" destination="qPQ-Eu-c9X" collectionClass="NSMutableArray" id="hZa-Tr-QRh"/>
+            </connections>
+            <point key="canvasLocation" x="352" y="673"/>
+        </tableViewCell>
+    </objects>
+</document>

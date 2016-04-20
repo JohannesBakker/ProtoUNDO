@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChoosePictureSourceViewController" customModule="Proto_UNDO" customModuleProvider="target">
+            <connections>
+                <outlet property="libraryButton" destination="XYo-yx-j02" id="Gwh-rr-ITS"/>
+                <outlet property="line1" destination="Iuv-tB-TE6" id="AhJ-h6-8Wq"/>
+                <outlet property="line2" destination="GAO-fO-LqP" id="Qva-w6-apc"/>
+                <outlet property="photoCollection" destination="q23-NT-cem" id="5Kg-WY-1tu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="333"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="q23-NT-cem">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DLA-0e-E56">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="buW-3J-NbU"/>
+                        <outlet property="delegate" destination="-1" id="2sy-m3-JxS"/>
+                    </connections>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeB-3Y-WRe">
+                    <rect key="frame" x="0.0" y="295" width="375" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelAction:" destination="-1" eventType="touchUpInside" id="ZSH-fG-5qX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b67-T1-ZsG">
+                    <rect key="frame" x="0.0" y="252" width="375" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="Take Photo">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="photoAction:" destination="-1" eventType="touchUpInside" id="0vQ-fe-BJu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYo-yx-j02">
+                    <rect key="frame" x="0.0" y="209" width="375" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="Photo Library">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="libraryAction:" destination="-1" eventType="touchUpInside" id="8TN-2Q-nqd"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iuv-tB-TE6">
+                    <rect key="frame" x="12" y="248" width="350" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="d6p-3z-ZzW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GAO-fO-LqP">
+                    <rect key="frame" x="13" y="290" width="350" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="uXp-8D-Ccm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q23-NT-cem" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2wG-r9-WWj"/>
+                <constraint firstItem="GAO-fO-LqP" firstAttribute="top" secondItem="b67-T1-ZsG" secondAttribute="bottom" constant="3" id="5Vs-gy-f8A"/>
+                <constraint firstAttribute="trailing" secondItem="q23-NT-cem" secondAttribute="trailing" id="85s-FB-mHV"/>
+                <constraint firstAttribute="trailing" secondItem="xeB-3Y-WRe" secondAttribute="trailing" id="AVf-5o-m6e"/>
+                <constraint firstItem="b67-T1-ZsG" firstAttribute="top" secondItem="Iuv-tB-TE6" secondAttribute="bottom" constant="3" id="F6B-uS-ZuH"/>
+                <constraint firstAttribute="trailing" secondItem="GAO-fO-LqP" secondAttribute="trailing" constant="12" id="KgJ-2R-84P"/>
+                <constraint firstAttribute="trailing" secondItem="XYo-yx-j02" secondAttribute="trailing" id="Ost-UO-2d2"/>
+                <constraint firstItem="XYo-yx-j02" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="P4h-Bz-YbP"/>
+                <constraint firstItem="Iuv-tB-TE6" firstAttribute="top" secondItem="XYo-yx-j02" secondAttribute="bottom" constant="4" id="QsE-tF-Gs4"/>
+                <constraint firstItem="xeB-3Y-WRe" firstAttribute="top" secondItem="GAO-fO-LqP" secondAttribute="bottom" constant="4" id="Sgg-BP-gaR"/>
+                <constraint firstItem="xeB-3Y-WRe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TV0-nm-G3y"/>
+                <constraint firstItem="q23-NT-cem" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VIz-e8-rQc"/>
+                <constraint firstItem="GAO-fO-LqP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="ePw-4Q-tMn"/>
+                <constraint firstItem="XYo-yx-j02" firstAttribute="top" secondItem="q23-NT-cem" secondAttribute="bottom" constant="8" id="fjI-lZ-3jE"/>
+                <constraint firstAttribute="bottom" secondItem="xeB-3Y-WRe" secondAttribute="bottom" constant="5" id="hxn-aS-J1i"/>
+                <constraint firstAttribute="trailing" secondItem="Iuv-tB-TE6" secondAttribute="trailing" constant="13" id="iL8-Li-GL1"/>
+                <constraint firstItem="b67-T1-ZsG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pxM-Tf-cT2"/>
+                <constraint firstItem="GAO-fO-LqP" firstAttribute="top" secondItem="b67-T1-ZsG" secondAttribute="bottom" constant="3" id="sE1-yr-vuA"/>
+                <constraint firstItem="Iuv-tB-TE6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="vPa-06-MQI"/>
+                <constraint firstAttribute="trailing" secondItem="b67-T1-ZsG" secondAttribute="trailing" id="yLr-Uq-fLj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="431.5" y="384.5"/>
+        </view>
+    </objects>
+</document>

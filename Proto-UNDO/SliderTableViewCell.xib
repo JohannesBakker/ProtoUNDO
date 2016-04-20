@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="SliderTableViewCell" customModule="Proto_UNDO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="z10-ut-rU2">
+                        <rect key="frame" x="16" y="23" width="298" height="31"/>
+                        <connections>
+                            <action selector="sliderValueChanged" destination="KGk-i7-Jjw" eventType="valueChanged" id="gTD-pt-fXO"/>
+                        </connections>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEF-GC-mbi" userLabel="Description">
+                        <rect key="frame" x="18" y="8" width="27" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY8-R0-Myf" userLabel="DoneButton">
+                        <rect key="frame" x="266" y="8" width="46" height="30"/>
+                        <state key="normal" title="Button"/>
+                        <connections>
+                            <action selector="doneTapped" destination="KGk-i7-Jjw" eventType="touchUpInside" id="g43-ic-vSo"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 oz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEI-Zq-hnZ" userLabel="Value">
+                        <rect key="frame" x="230" y="8" width="30" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fEI-Zq-hnZ" firstAttribute="trailing" secondItem="mY8-R0-Myf" secondAttribute="leading" constant="-6" identifier="valueTrailing" id="6fR-9l-p5S" userLabel="Value Trailing"/>
+                    <constraint firstItem="z10-ut-rU2" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="6h1-vW-6NC"/>
+                    <constraint firstItem="fEI-Zq-hnZ" firstAttribute="top" secondItem="yEF-GC-mbi" secondAttribute="top" id="7S8-Jg-fYH"/>
+                    <constraint firstItem="mY8-R0-Myf" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="7cT-hU-hyL"/>
+                    <constraint firstItem="mY8-R0-Myf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="DCu-I6-wG9"/>
+                    <constraint firstItem="z10-ut-rU2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="M7Z-Qg-rSP"/>
+                    <constraint firstItem="yEF-GC-mbi" firstAttribute="bottom" secondItem="z10-ut-rU2" secondAttribute="top" id="Sie-YJ-YjB"/>
+                    <constraint firstItem="yEF-GC-mbi" firstAttribute="leading" secondItem="z10-ut-rU2" secondAttribute="leading" id="Wya-dT-vD8"/>
+                    <constraint firstItem="yEF-GC-mbi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="gwA-Bl-WKR"/>
+                    <constraint firstItem="fEI-Zq-hnZ" firstAttribute="height" secondItem="mY8-R0-Myf" secondAttribute="height" id="r9d-2L-ahh"/>
+                    <constraint firstItem="z10-ut-rU2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wG0-jh-rPO"/>
+                    <constraint firstItem="fEI-Zq-hnZ" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" priority="700" id="znx-v2-gjG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="yEF-GC-mbi" id="Esu-0a-zOn"/>
+                <outlet property="doneButton" destination="mY8-R0-Myf" id="lER-X3-VuI"/>
+                <outlet property="slider" destination="z10-ut-rU2" id="o8o-YO-mXd"/>
+                <outlet property="valueLabel" destination="fEI-Zq-hnZ" id="OO8-u9-YFx"/>
+                <outlet property="valueTrailing" destination="6fR-9l-p5S" id="qPc-yv-VRe"/>
+            </connections>
+            <point key="canvasLocation" x="129" y="375.5"/>
+        </tableViewCell>
+    </objects>
+</document>
